@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛠️ Linux Load Testing & System Hardening
+# 🛠️ Linux Service Hardening, Load Testing & Automated Monitoring
 
 **Service isolation · Ephemeral storage · Stress testing · SSH hardening · Cron automation**
 
@@ -16,7 +16,7 @@
 
 A hands-on Linux systems lab that simulates how a production service account gets provisioned, stress-tested, secured, and monitored — the way it would actually be done on a real server.
 
-The scenario: create an isolated, non-root service account (`bgdsvc_tanjim26`), give it a 256 MB RAM-backed scratch space (`tmpfs`), push it to its limits with CPU/memory/disk stress tests, lock down SSH access to key-only auth on a non-default port, wire up automated health monitoring via cron, and finally tear everything down cleanly with a single idempotent script.
+The scenario: create an isolated, non-root service account (`bgdsvc_tanjim26`), give it a 256 MB RAM-backed scratch space (`tmpfs`), push it to its limits with CPU/memory/disk stress tests, lock down SSH access to key-only auth on a non-default port, and — just as important — wire up automated health monitoring and cleanup via cron so the service keeps running unattended. Everything gets torn down cleanly at the end with a single idempotent script.
 
 Every step below is backed by a real terminal run and a screenshot in this repo.
 
