@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛠️ Linux Service Hardening, Load Testing & Automated Monitoring
+# 🛠️ Linux Load Testing, Service Hardening & Automated Monitoring
 
 **Service isolation · Ephemeral storage · Stress testing · SSH hardening · Cron automation**
 
